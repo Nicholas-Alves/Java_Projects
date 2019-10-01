@@ -56,14 +56,14 @@ public class App {
 						g.setTj(new Soma());
 						System.out.println("Digite a soma da operação: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelSo));
 						break;
 					case 2:
 						Soma.nivel();
 						g.setTj(new Soma());
 						System.out.println("Digite a soma da operação: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelSo));
 						break;
 					case 3:
 						break;
@@ -95,14 +95,14 @@ public class App {
 						g.setTj(new Subtracao());
 						System.out.println("Digite a diferença da operação: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelSu));
 						break;
 					case 2:
 						Subtracao.nivel();
 						g.setTj(new Subtracao());
 						System.out.println("Digite a diferença da operação: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelSu));
 						break;
 					case 3:
 						break;
@@ -134,14 +134,14 @@ public class App {
 						g.setTj(new Multiplicacao());
 						System.out.println("Digite o produto da operação: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelMu));
 						break;
 					case 2:
 						Multiplicacao.nivel();
 						g.setTj(new Multiplicacao());
 						System.out.println("Digite o produto da operação: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelMu));
 						break;
 					case 3:
 						break;
@@ -173,14 +173,14 @@ public class App {
 						g.setTj(new Divisao());
 						System.out.println("Digite o quociente da operação: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelDi));
 						break;
 					case 2:
 						Divisao.nivel();
 						g.setTj(new Divisao());
 						System.out.println("Digite o quociente da operação: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelDi));
 						break;
 					case 3:
 						break;
@@ -211,14 +211,14 @@ public class App {
 						g.setTj(new RestoDivisao());
 						System.out.println("Digite o resto da divisão: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelRe));
 						break;
 					case 2:
 						RestoDivisao.nivel();
 						g.setTj(new RestoDivisao());
 						System.out.println("Digite o resto da divisão: ");
 						re = in.nextDouble();
-						System.out.println(g.verifica(a, b));
+						System.out.println(g.verifica(a, b, nivelRe));
 						break;
 					case 3:
 						break;

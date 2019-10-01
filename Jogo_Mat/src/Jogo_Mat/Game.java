@@ -11,7 +11,7 @@ public class Game {
 		this.tj = tj;
 	}
 	
-	public String verifica(double c, double d) {
+	public String verifica(double c, double d, int dificuldade) {
 		c = TipoJogo.a;
 		d = TipoJogo.b;
 		
@@ -22,10 +22,10 @@ public class Game {
 			System.out.print("Você Acertou! ");
 			App.upNivel = 1;
 			App.nivel(App.opr);
-			if(App.upNivel >= 5) {
-				App.upNivel = 6;
-				return "Parabéns, você venceu o jogo!";
-				
+			if(dificuldade == 5) {
+				App.upNivel = 0;
+				App.nivel(App.opr);
+				System.out.println("Parabéns, você venceu o jogo!");				
 			}else {
 				System.out.println("Próximo Nível.");
 			}
