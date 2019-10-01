@@ -1,0 +1,24 @@
+Ano: 2017
+
+- Aplicação feita no console;
+- Atividade da matéria de Programação de Computadores no curso Técnico em Informática.
+
+Como funciona:
+
+Geração de números aleatórios (n):
+Dificuldade 1 - 0 <= n <= 9
+Dificuldade 2 - 10 <= n <= 99
+Dificuldade 3 - 100 <= n <= 999
+Dificuldade 4 - 1000 <= n <= 9999
+Dificuldade 5 - 10000 <= n <= 99999
+
+1) Inicialmente, um menu é mostrado indicando as opções de jogo: Soma, Subtração, Multiplicação, Divisão, Resto da Divisão e Sair;
+2) Independente da escolha anterior, um segundo menu é apresentado, mostrando a dificuldade atual na operação escolhida e as possibilidades
+de iniciar um novo jogo, continuar um jogo anterior e sair;
+3) As opções de iniciar e continuar um jogo levam para uma tela em que são apresentados dois números aleatórios de acordo com a dificuldade
+atual atual do jogo.
+4) O Jogador insere o resultado de acordo com a operação escolhida;
+4.1) Se o resultado estiver correto, a dificuldade aumenta em 1 indo até o máximo de 5;
+4.2) Se o resultado estiver incorreto, a dificuldade será alterada para 1;
+5) O passo 2 é executado novamente até que o jogador decida sair (Opção 3);
+6) O passo 1 é executado novamente até que o jogador decida sair (Opção 6).
